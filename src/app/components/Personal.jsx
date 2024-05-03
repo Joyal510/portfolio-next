@@ -19,7 +19,7 @@ export default function Personal() {
           </div>
           <div className="row ">{"a Web Developer"}</div>
           <div className="row my-3">
-            <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+            <div className="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-2">
               <Link target="_blank" href="https://github.com/Joyal510">
                 <Image src={github} height={50} />
               </Link>
