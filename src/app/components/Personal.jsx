@@ -18,7 +18,7 @@ export default function Personal() {
             <div className="col col-md-12 col-lg-9 p-2">{"Joyal Corda."}</div>
           </div>
           <div className="row ">{"a Web Developer"}</div>
-          <div className="row my-3">
+          <div className="row my-3 gap-4">
             <div className="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-2">
               <Link target="_blank" href="https://github.com/Joyal510">
                 <Image src={github} height={50} />

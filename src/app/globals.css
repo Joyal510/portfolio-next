@@ -63,10 +63,10 @@
   border: 1.5px solid black;
 }
 
-@media only screen and (max-width: 423px) {
+@media only screen and (max-width: 576px) {
   .circle {
     position: relative;
-    left: -40px;
+    left: -37px;
   }
   .image-card {
     position: relative;
