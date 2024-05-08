@@ -63,6 +63,18 @@
   border: 1.5px solid black;
 }
 
+.footer-background {
+  background-color: black;
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.copyright {
+  position: relative;
+  top: 20px;
+  font-size: 10px;
+}
+
 @media only screen and (max-width: 576px) {
   .circle {
     position: relative;

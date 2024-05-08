@@ -4,6 +4,7 @@ import Partition from "./components/Partition";
 import Projects from "./components/Projects";
 import Video from "./components/Video";
 import LastNote from "./components/LastNote";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Video />
       <Partition/>
       <LastNote/>
+      <Footer/>
     </div>
   );
 }
