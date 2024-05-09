@@ -1,10 +1,11 @@
-import styles from "./page.module.css";
+
 import Personal from "./components/Personal";
 import Partition from "./components/Partition";
 import Projects from "./components/Projects";
 import Video from "./components/Video";
 import LastNote from "./components/LastNote";
 import Footer from "./components/Footer";
+import Art from "./components/Art";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       <Projects />
       <Partition />
       <Video />
-      <Partition/>
+      <Partition />
+      <Art/>
+      <Partition />
       <LastNote/>
       <Footer/>
     </div>
