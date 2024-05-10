@@ -16,7 +16,7 @@ export default function Art() {
             and satisfaction to capture the essence of these subjects through my
             sketches.`}
         </div>
-        <div className="col col-lg-3 col-xxl-3 d-flex justify-content-start fs-1 mx-4 sketch-title">
+        <div className="col col-lg-3 col-xxl-3 d-flex justify-content-center fs-1 mx-4 sketch-title">
           {"Sketching"}
         </div>
       </div>

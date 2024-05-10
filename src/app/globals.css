@@ -102,19 +102,28 @@
   top: -20px;
   left: -92px;
 } */
+.info-card {
+  width: 500px;
+}
 
-@media only screen and (max-width: 576px) {
-  .circle {
-    position: relative;
-    left: -37px;
-  }
-  .image-card {
-    position: relative;
-    left: -20px;
-    height: 180px;
-    width: 200px;
-    /* background-color: red; */
-  }
+#edu-card {
+  height: max-content;
+  border: 1px solid black;
+  box-shadow: 5px 4px 0px 0px black;
+  font-family: yank;
+  font-weight: 700;
+}
+
+.education-title {
+  font-family: hectic;
+}
+
+#stream-title {
+  padding-block: 5px;
+}
+
+#year-title {
+  font-family: hectic;
 }
 @media only screen and (max-width: 585px) {
   .circle {
@@ -123,18 +132,4 @@
     object-fit: cover;
   }
 }
-@media only screen and (max-width: 991px) {
-  .right-card {
-    position: relative;
-    top: -50px;
-    height: max-content;
-    min-width: 200px;
-    /* background-color: black; */
-  }
-  /* .black-line {
-    position: relative;
-    top: -50px;
-    height: 1.2px;
-    background-color: black;
-  } */
-}
+
