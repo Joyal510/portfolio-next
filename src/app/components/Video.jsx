@@ -7,7 +7,7 @@ export default function Video() {
   return (
     <div className="container">
       <div className="row d-flex justify-content-center my-5 gap-5">
-        <div className="col-8 col-sm-8 col-md-9 col-lg-5 col-xl-9 col-xxl-10 info-card">
+        <div className="col-8 col-sm-8 col-md-9 col-lg-5 col-xl-9 col-xxl-7 info-card">
           <div className="row fs-1 mx-2 video-editing-title">
             <div className="col d-flex justify-content-center col-lg">{`Video Editing`}</div>
           </div>
